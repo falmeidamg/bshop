@@ -1,7 +1,9 @@
 body {
     width: 600px;
     margin: auto;
-    margin-top: 30px;    
+    margin-top: 30px;
+    font-family: arial, sans-serif;
+    color: #606062;    
 }
 
 .grid-center {
@@ -11,32 +13,38 @@ body {
 }
 
 h1 {
-    text-align: center;    
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;    
 }
 
 h2 {
     font-size: 18px;
+    font-weight: normal;
     font-family: verdana;
     font-weight: normal;
     text-align: center;
     color: #606062;
     padding: 10px 0;
-    margin-top: 30px;
+    margin: 30px 0 20px 0;
     border-top: 2px solid #606062;
     border-bottom: 2px solid #606062;
 }
 
 p {
     text-align: center;
+    line-height: 1.5;
 }
 
 .button {
-    padding: 8px;
+    padding: 10px 20px;
     background-color: #606062;
     color: white;
     border: none;
     cursor: pointer;
     transition: background-color 0.03s;
+    font-size: 16px;
 }
 
 .button:hover {
@@ -45,7 +53,8 @@ p {
 
 .center-button {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 10vh;
+    justify-content: center;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
